@@ -65,4 +65,6 @@ docker rm <CONTAINER_ID>
 This process makes it easy to deploy a static website anywhere using Docker.
 
 You can easily run the container in your local system by entering the following command while your docker is running.
+```sh
 docker run -d -p 8080:80 madhulathabandaru/my-nginx-website
+```
